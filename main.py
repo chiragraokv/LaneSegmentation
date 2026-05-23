@@ -14,7 +14,7 @@ from kaggle_secrets import UserSecretsClient
 from torch.utils.data import DataLoader
 
 from model.Unet import LaneSegmentationNet
-from model.LaneColourClassifier import LaneColorClassifier
+from model.CClassifier import LaneColorClassifier
 from loss import DiceLoss
 from dataset import LaneDataset
 from helper import mask_to_color
